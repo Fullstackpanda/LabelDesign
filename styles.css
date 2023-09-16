@@ -1,7 +1,101 @@
-
-table, th, td, tr{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 15px;
-    text-align: center;
+*{
+    box-sizing: border-box;
 }
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Open Sans , sans-serif;
+}
+
+    /* label class to div  */
+
+.label{
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* divider below h1 element */
+
+.divider{
+    border: 1px solid #888988;
+    margin: 2px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: .15px;
+  }
+
+  p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bold{
+    font-weight: 800;
+  }
+
+  /* divider line size of large */
+  .large{
+    height: 10px;
+  }
+  .large, .medium{
+    background-color: black;
+    border: 0;
+
+  }
+  .small-text{
+    font-size: .85rem;
+  }
+
+  .calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .calories-info h2{
+    margin: 0;
+  }
+
+  .left-container p{
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+.calories-info span{
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
+}
+
+/* divider line size of medium */
+.medium{
+    height: 5px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.indent{
+    margin-left: 1em;
+}
+
+.daily-value p:not(.no-divider){
+    border-bottom:1px solid #888989;
+}
+
+.double-indent{
+  margin-left: 2em;
+}
+.note{font-size:.6rem;margin:5px 0;padding:0 8px;text-indent: -8px;}
